@@ -13,6 +13,8 @@ requires:
 # - core/1.2.4: Element
 
 provides: [Element.expandAbbr]
+
+...
 */
 
 Element.implement("expandAbbr", function( str ) {
