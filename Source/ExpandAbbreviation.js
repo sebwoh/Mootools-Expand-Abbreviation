@@ -1,9 +1,19 @@
-/**
- * (Zen) Extent Appreviation for Mootools 1.2
- * by Sebastian Wohlrab @ NOSE AG Design Intelligence <sebastian.wohlrab@nose.ch>
- */
+/*
+---
+description: expandAbbr provides ZEN-Coding functionality to MooTools. Expand Abbreviation extends Elements.
 
-Element.implement("expandAppr", function( str ) {
+license: MIT-style
+
+authors:
+- Sebastian Wohlrab
+
+requires:
+- core:1.2.4: '*'
+
+provides: [Element.expandAbbr]
+*/
+
+Element.implement("expandAbbr", function( str ) {
     var parent = this;
 
     if ( str.search('>') > 0 )
