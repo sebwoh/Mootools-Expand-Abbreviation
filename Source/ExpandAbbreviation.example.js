@@ -8,7 +8,6 @@ authors:
 - Sebastian Wohlrab
 
 requires:
-- ExpandAbbreviation
 - core:1.2.4: '*'
 
 provides: [Element.expandAbbr]
