@@ -12,10 +12,10 @@ window.addEvent('domready', function() {
     document.body.expandAppr( 'div#header>div#logo^text=Containing Logo+div#navigation+div#subnavigation' );
 
     // the Navigation with some li's and a's
-    $('navigation').expandAppr( 'ul>li*3>a^href=http://www.nose.ch,text=NOSE,target=_blank,title=a navigation link' );
+    $('navigation').expandAppr( 'ul>li*3>a^href=http://www.google.com,text=GOOGLE,target=_blank,title=a navigation link' );
 
     // the Navigation with some li's and a's
-    $('subnavigation').expandAppr( 'ul>li*5>a^href=http://www.spiegel.de,text=Spiegel,title=a link' );
+    $('subnavigation').expandAppr( 'ul>li*5>a^href=http://www.nyt.com,text=NYT,title=a link' );
 
     // Generating Main Content Body with left and right column
     document.body.expandAppr( 'div#main>div#content' );
