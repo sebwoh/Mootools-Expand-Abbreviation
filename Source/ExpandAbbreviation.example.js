@@ -8,7 +8,9 @@ authors:
 - Sebastian Wohlrab
 
 requires:
-- core:1.2.4: '*'
+  core/1.2.4: '*'
+# actually:
+# - core/1.2.4: Element
 
 provides: [Element.expandAbbr]
 
