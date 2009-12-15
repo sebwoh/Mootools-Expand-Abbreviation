@@ -11,7 +11,7 @@ requires:
 - ExpandAbbreviation
 - core:1.2.4: '*'
 
-provides: [Element, Elements, $, $$]
+provides: [Element.expandAbbr]
 
 ...
 */
